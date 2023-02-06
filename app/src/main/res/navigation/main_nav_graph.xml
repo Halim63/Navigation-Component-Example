@@ -50,7 +50,8 @@
             app:argType="string" />
         <deepLink
             android:id="@+id/deepLink"
-            app:uri="deeplink.com/{message}" />
+            app:action="ACTION_VIEW"
+            app:uri="deeplink://deals/{message}" />
 
     </fragment>
 </navigation>
